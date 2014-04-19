@@ -1,0 +1,59 @@
+<link href="raspisanie-res/css/bootstrap.css" rel="stylesheet">
+<!--<link href="raspisanie-res/css/bootstrap-theme.css" rel="stylesheet">-->
+<script src="raspisanie-res/js/bootstrap.js"></script>
+
+<div align="center">
+    <nav class="navbar navbar-default" role="navigation">
+
+        <div class="container-fluid">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="btn1">DayOfWeek <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#" onclick="raspisanie.selectDayOfWeek(0)">Понедельник</a></li>
+                    <li><a href="#" onclick="raspisanie.selectDayOfWeek(1)">Вторник</a></li>
+                    <li><a href="#" onclick="raspisanie.selectDayOfWeek(2)">Среда</a></li>
+                    <li><a href="#" onclick="raspisanie.selectDayOfWeek(3)">Четверг</a></li>
+                    <li><a href="#" onclick="raspisanie.selectDayOfWeek(4)">Пятница</a></li>
+                </ul>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="set"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" id="groupsselct">
+                </ul>
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <table class="table table-striped" id="table">
+        <tr>
+            <td class="time">8:10-9:45</td>
+            <td class="zan" id="rasp0p">Предмет</td>
+            <td class="targ" id="rasp0c">Каб</td>
+        </tr>
+        <tr>
+            <td class="time">9:55-11:30</td>
+            <td class="zan" id="rasp1p">Предмет</td>
+            <td class="targ" id="rasp1c">Каб</td>
+        </tr>
+        <tr>
+            <td class="time">11:40-13:15</td>
+            <td class="zan" id="rasp2p">Предмет</td>
+            <td class="targ" id="rasp2c">Каб</td>
+        </tr>
+        <tr>
+            <td class="time">13:35-15:10</td>
+            <td class="zan" id="rasp3p">Предмет</td>
+            <td class="targ" id="rasp3c">Каб</td>
+        </tr>
+        <tr>
+            <td class="time">15:20-16:55</td>
+            <td class="zan" id="rasp4p">Предмет</td>
+            <td class="targ" id="rasp4c">Каб</td>
+        </tr>
+
+    </table>
+</div>

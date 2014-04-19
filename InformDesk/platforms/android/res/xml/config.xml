@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.arkuda.informdesk" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+    <name>InformDesk</name>
+    <description>
+        	Information PSUTI
+    </description>
+    <author email="reyzor2142@gmail.com" href="http://vk.com/arkuda63">
+        Andrey Kiryantsev
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
