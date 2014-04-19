@@ -13,9 +13,15 @@
 
     <!-- Include the compiled Ratchet CSS -->
     <link href="css/ratchet.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
+    <script src="js/jquery-2.1.0.min.js"></script>
     <!-- Include the compiled Ratchet JS -->
     <script src="js/ratchet.js"></script>
+    <script src="js/ejs.js"></script>
+    <script src="js/app.core.js"></script>
+
+
   </head>
   <body>
 
@@ -27,43 +33,17 @@
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
 
 
+    <div id="content">
 
-    <ul class="table-view">
-        <li class="table-view-cell media">
-            <a class="navigate-right">
-                <img class="media-object pull-left" src="http://placehold.it/42x42">
-                <div class="media-body">
-                    Item 1
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-                </div>
-            </a>
-        </li>
-        <li class="table-view-cell media">
-            <a class="navigate-right">
-                <img class="media-object pull-left" src="http://placehold.it/42x42">
-                <div class="media-body">
-                    Item 1
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-                </div>
-            </a>
-        </li>
-        <li class="table-view-cell media">
-            <a class="navigate-right">
-                <img class="media-object pull-left" src="http://placehold.it/42x42">
-                <div class="media-body">
-                    Item 1
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
-                </div>
-            </a>
-        </li>
-    </ul>
+    </div>
 
 
     <nav class="bar bar-tab">
-        <a class="tab-item active" href="#">
+        <a class="tab-item active" href="#" onclick="app.renderNews();">
             Новости
         </a>
-        <a class="tab-item" href="#">
+
+        <a class="tab-item" href="#" onclick="app.renderNews();">
             Расписание
         </a>
         <a class="tab-item" href="#">
