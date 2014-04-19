@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e94ac23d-1dd3-424a-9c82-1de0ff190284" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app.raspisanie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/raspisanie.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.core.js" afterPath="$PROJECT_DIR$/js/app.core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="F:\GitForks\InformDesk\frontend\js\ejs.js" afterPath="$PROJECT_DIR$/js/libs/ejs.js" />
-      <change type="MOVED" beforePath="F:\GitForks\InformDesk\frontend\js\ejs_production.js" afterPath="$PROJECT_DIR$/js/libs/ejs_production.js" />
-      <change type="MOVED" beforePath="F:\GitForks\InformDesk\frontend\js\jquery-2.1.0.min.js" afterPath="$PROJECT_DIR$/js/libs/jquery-2.1.0.min.js" />
-      <change type="MOVED" beforePath="F:\GitForks\InformDesk\frontend\js\ratchet.js" afterPath="$PROJECT_DIR$/js/libs/ratchet.js" />
-      <change type="MOVED" beforePath="F:\GitForks\InformDesk\frontend\js\ratchet.min.js" afterPath="$PROJECT_DIR$/js/libs/ratchet.min.js" />
-      <change type="MOVED" beforePath="F:\GitForks\InformDesk\frontend\js\view.js" afterPath="$PROJECT_DIR$/js/libs/view.js" />
     </list>
     <ignored path="frontend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -269,12 +259,16 @@
       <created>1397925722308</created>
       <updated>1397925722308</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="alpha prototype">
+      <created>1397934051016</created>
+      <updated>1397934051016</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -282,7 +276,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17545748" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17545748" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -312,7 +306,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="add $lib, add rendering with ejs," />
-    <option name="LAST_COMMIT_MESSAGE" value="add $lib, add rendering with ejs," />
+    <MESSAGE value="alpha prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="alpha prototype" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
