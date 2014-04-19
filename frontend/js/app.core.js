@@ -1,22 +1,31 @@
 
+var app = function(){
 
-var app = function(){};
+    app.renderNews();
+    $("#content1").html(new EJS({url: 'views/news.ejs'}).render());
+    raspisanie.init();
+    $("#content3").html(new EJS({url: 'views/contacts.ejs'}).render());
 
-
-
-app.renderNews = function()
-{
-    var html = new EJS({url: 'views/news.ejs'}).render();
-    $("#content").append(html);
-}
+};
 
 
-app.renderRaspisanie = function()
-{
-    var html = new EJS({url: 'views/raspisanie.ejs'}).render();
-}
 
-app.renderContacts = function()
-{
-    var html = new EJS({url: 'views/contacts.ejs'}).render();
-}
+
+    app.renderNews = function () {
+        $("#content1").show();
+        $("#content2").hide();
+        $("#content3").hide();
+    };
+
+
+    app.renderRaspisanie = function () {
+        $("#content1").hide();
+        $("#content2").show();
+        $("#content3").hide();
+    };
+
+    app.renderContacts = function () {
+        $("#content1").hide();
+        $("#content2").hide();
+        $("#content3").show();
+    };
