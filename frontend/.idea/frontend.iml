@@ -5,6 +5,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="application" />
+    <orderEntry type="library" name="bootstrap.js" level="project" />
+    <orderEntry type="library" name="ratchet.js" level="project" />
+    <orderEntry type="library" name="JQuery" level="project" />
+    <orderEntry type="library" name="ejs.js" level="project" />
   </component>
 </module>
 
